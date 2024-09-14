@@ -1,0 +1,9 @@
+{
+  "name": "single-price-grid-component-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
