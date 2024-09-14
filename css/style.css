@@ -202,7 +202,7 @@ button {
 }
 
 .text-wrap {
-	width: 20rem;
+	max-width: 25ch;
 }
 
 .margin-bottom-0 {
@@ -217,7 +217,7 @@ button {
 
 @media (min-width: 49.6875em) {
 	.container {
-		max-width: 45rem;
+		max-width: 50rem;
 		grid-template-columns: repeat(4, 1fr);
 	}
 
@@ -235,6 +235,10 @@ button {
 
 	.ex-font-lg {
 		font-size: var(--fs-500);
+	}
+
+	.padding-xl {
+		padding: var(--space-xxl);
 	}
 
 	.letter-spacing-md {
